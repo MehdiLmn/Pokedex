@@ -5,7 +5,7 @@ import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.componen
 import { ModalPokemonComponent } from './modal-pokemon/modal-pokemon.component';
 
 const routes: Routes = [
-  {path: "", component: ModalPokemonComponent},
+  {path: "", component: PokemonComponent},
   {path: "pokemons", component: PokemonComponent},
   {path: "pokemons/:id", component: PokemonDetailComponent},
 
